@@ -1,0 +1,198 @@
+[0.233s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'joy']
+[0.233s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc52755ff10>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['joy'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc52755ff10>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fc5274c5970>)
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.457s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/penship/rover/src'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(joy) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(joy) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(joy) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(joy) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(joy) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(joy) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(joy) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(joy) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(joy) by extension 'ros'
+[0.487s] DEBUG:colcon.colcon_core.package_identification:Package 'joy' with type 'ros.ament_cmake' and name 'joy'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'ros'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extensions ['cmake', 'python']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'cmake'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'python'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extensions ['python_setup_py']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'python_setup_py'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extensions ['cmake', 'python']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extension 'cmake'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extension 'python'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extensions ['python_setup_py']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(launcher/launch) by extension 'python_setup_py'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extension 'ros'
+[0.493s] DEBUG:colcon.colcon_core.package_identification:Package 'main' with type 'ros.ament_cmake' and name 'main'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extension 'ros'
+[0.496s] DEBUG:colcon.colcon_core.package_identification:Package 'motor' with type 'ros.ament_cmake' and name 'motor'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ros'
+[0.499s] DEBUG:colcon.colcon_core.package_identification:Package 'vision' with type 'ros.ament_cmake' and name 'vision'
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.525s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'main' in 'main'
+[0.525s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motor' in 'motor'
+[0.525s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision' in 'vision'
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.528s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/penship/rover/src/install
+[0.528s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/penship/rover/install
+[0.530s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 280 installed packages in /opt/ros/foxy
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.640s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'joy' is in: /home/penship/rover/src/install/joy, /home/penship/rover/install/joy, /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding joy
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.641s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/penship/rover/src/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/penship/rover/src/install/joy', 'merge_install': False, 'path': '/home/penship/rover/src/joy', 'symlink_install': False, 'test_result_base': None}
+[0.642s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.643s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/penship/rover/src/joy' with build type 'ament_cmake'
+[0.643s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/penship/rover/src/joy'
+[0.645s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/penship/rover/src/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/joy -- -j8 -l8
+[8.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/penship/rover/src/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/joy -- -j8 -l8
+[8.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/penship/rover/src/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/joy
+[8.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[8.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/penship/rover/src/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/joy
+[8.336s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy' for CMake module files
+[8.337s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy' for CMake config files
+[8.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[8.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/penship/rover/src/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[8.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/penship/rover/src/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[8.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/penship/rover/src/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[8.341s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy/lib'
+[8.341s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy/bin'
+[8.341s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy/lib/pkgconfig/joy.pc'
+[8.342s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy/lib/python3.8/site-packages'
+[8.342s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy/bin'
+[8.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/penship/rover/src/install/joy/share/joy/package.ps1'
+[8.343s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/penship/rover/src/install/joy/share/joy/package.dsv'
+[8.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/penship/rover/src/install/joy/share/joy/package.sh'
+[8.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/penship/rover/src/install/joy/share/joy/package.bash'
+[8.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/penship/rover/src/install/joy/share/joy/package.zsh'
+[8.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/penship/rover/src/install/joy/share/colcon-core/packages/joy)
+[8.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[8.349s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy' for CMake module files
+[8.350s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy' for CMake config files
+[8.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[8.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/penship/rover/src/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[8.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/penship/rover/src/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[8.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/penship/rover/src/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[8.353s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy/lib'
+[8.353s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy/bin'
+[8.353s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy/lib/pkgconfig/joy.pc'
+[8.353s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy/lib/python3.8/site-packages'
+[8.354s] Level 1:colcon.colcon_core.environment:checking '/home/penship/rover/src/install/joy/bin'
+[8.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/penship/rover/src/install/joy/share/joy/package.ps1'
+[8.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/penship/rover/src/install/joy/share/joy/package.dsv'
+[8.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/penship/rover/src/install/joy/share/joy/package.sh'
+[8.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/penship/rover/src/install/joy/share/joy/package.bash'
+[8.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/penship/rover/src/install/joy/share/joy/package.zsh'
+[8.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/penship/rover/src/install/joy/share/colcon-core/packages/joy)
+[8.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.358s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.370s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.391s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.391s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/penship/rover/src/install/local_setup.ps1'
+[8.393s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/penship/rover/src/install/_local_setup_util_ps1.py'
+[8.395s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/penship/rover/src/install/setup.ps1'
+[8.397s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/penship/rover/src/install/local_setup.sh'
+[8.398s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/penship/rover/src/install/_local_setup_util_sh.py'
+[8.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/penship/rover/src/install/setup.sh'
+[8.402s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/penship/rover/src/install/local_setup.bash'
+[8.403s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/penship/rover/src/install/setup.bash'
+[8.404s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/penship/rover/src/install/local_setup.zsh'
+[8.405s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/penship/rover/src/install/setup.zsh'

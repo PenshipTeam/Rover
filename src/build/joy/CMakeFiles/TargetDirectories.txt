@@ -1,0 +1,10 @@
+/home/penship/rover/src/build/joy/CMakeFiles/install/local.dir
+/home/penship/rover/src/build/joy/CMakeFiles/install.dir
+/home/penship/rover/src/build/joy/CMakeFiles/list_install_components.dir
+/home/penship/rover/src/build/joy/CMakeFiles/rebuild_cache.dir
+/home/penship/rover/src/build/joy/CMakeFiles/edit_cache.dir
+/home/penship/rover/src/build/joy/CMakeFiles/test.dir
+/home/penship/rover/src/build/joy/CMakeFiles/rov_joy_controller.dir
+/home/penship/rover/src/build/joy/CMakeFiles/install/strip.dir
+/home/penship/rover/src/build/joy/CMakeFiles/joy_uninstall.dir
+/home/penship/rover/src/build/joy/CMakeFiles/uninstall.dir

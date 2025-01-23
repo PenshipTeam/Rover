@@ -1,0 +1,42 @@
+[0.029s] Invoking command in '/home/penship/rover/src/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/joy -- -j8 -l8
+[0.091s] [35m[1mScanning dependencies of target rov_joy_controller[0m
+[0.145s] [ 50%] [32mBuilding CXX object CMakeFiles/rov_joy_controller.dir/src/joy.cpp.o[0m
+[2.166s] [01m[K/home/penship/rover/src/joy/src/joy.cpp:[m[K In member function ‘[01m[Kvoid ROVJoyController::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.167s] [01m[K/home/penship/rover/src/joy/src/joy.cpp:24:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdpad_up[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.167s]    24 |     bool [01;35m[Kdpad_up[m[K = joy_msg->buttons[13];
+[2.167s]       |          [01;35m[K^~~~~~~[m[K
+[2.167s] [01m[K/home/penship/rover/src/joy/src/joy.cpp:25:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdpad_down[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.167s]    25 |     bool [01;35m[Kdpad_down[m[K = joy_msg->buttons[14];
+[2.168s]       |          [01;35m[K^~~~~~~~~[m[K
+[2.168s] [01m[K/home/penship/rover/src/joy/src/joy.cpp:26:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdpad_left[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.168s]    26 |     bool [01;35m[Kdpad_left[m[K = joy_msg->buttons[15];
+[2.168s]       |          [01;35m[K^~~~~~~~~[m[K
+[2.168s] [01m[K/home/penship/rover/src/joy/src/joy.cpp:27:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdpad_right[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.168s]    27 |     bool [01;35m[Kdpad_right[m[K = joy_msg->buttons[16];
+[2.169s]       |          [01;35m[K^~~~~~~~~~[m[K
+[7.434s] [100%] [32m[1mLinking CXX executable rov_joy_controller[0m
+[7.969s] [100%] Built target rov_joy_controller
+[7.987s] Invoked command in '/home/penship/rover/src/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/joy -- -j8 -l8
+[8.007s] Invoking command in '/home/penship/rover/src/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/joy
+[8.022s] -- Install configuration: ""
+[8.022s] -- Installing: /home/penship/rover/src/install/joy/lib/joy/rov_joy_controller
+[8.027s] -- Set runtime path of "/home/penship/rover/src/install/joy/lib/joy/rov_joy_controller" to ""
+[8.027s] -- Up-to-date: /home/penship/rover/src/install/joy/include
+[8.027s] -- Up-to-date: /home/penship/rover/src/install/joy/include/joy
+[8.027s] -- Up-to-date: /home/penship/rover/src/install/joy/include/joy/joy.h
+[8.027s] -- Up-to-date: /home/penship/rover/src/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[8.028s] -- Up-to-date: /home/penship/rover/src/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[8.028s] -- Up-to-date: /home/penship/rover/src/install/joy/share/joy/environment/ament_prefix_path.sh
+[8.028s] -- Up-to-date: /home/penship/rover/src/install/joy/share/joy/environment/ament_prefix_path.dsv
+[8.029s] -- Up-to-date: /home/penship/rover/src/install/joy/share/joy/environment/path.sh
+[8.029s] -- Up-to-date: /home/penship/rover/src/install/joy/share/joy/environment/path.dsv
+[8.029s] -- Up-to-date: /home/penship/rover/src/install/joy/share/joy/local_setup.bash
+[8.029s] -- Up-to-date: /home/penship/rover/src/install/joy/share/joy/local_setup.sh
+[8.029s] -- Up-to-date: /home/penship/rover/src/install/joy/share/joy/local_setup.zsh
+[8.030s] -- Up-to-date: /home/penship/rover/src/install/joy/share/joy/local_setup.dsv
+[8.030s] -- Installing: /home/penship/rover/src/install/joy/share/joy/package.dsv
+[8.030s] -- Up-to-date: /home/penship/rover/src/install/joy/share/ament_index/resource_index/packages/joy
+[8.030s] -- Up-to-date: /home/penship/rover/src/install/joy/share/joy/cmake/joyConfig.cmake
+[8.030s] -- Up-to-date: /home/penship/rover/src/install/joy/share/joy/cmake/joyConfig-version.cmake
+[8.031s] -- Up-to-date: /home/penship/rover/src/install/joy/share/joy/package.xml
+[8.034s] Invoked command in '/home/penship/rover/src/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/joy

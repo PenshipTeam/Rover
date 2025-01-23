@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000380] (-) JobUnselected: {'identifier': 'main'}
+[0.000419] (-) JobUnselected: {'identifier': 'motor'}
+[0.000442] (-) JobUnselected: {'identifier': 'vision'}
+[0.000465] (joy) JobQueued: {'identifier': 'joy', 'dependencies': OrderedDict()}
+[0.001029] (joy) JobStarted: {'identifier': 'joy'}
+[0.013933] (joy) JobProgress: {'identifier': 'joy', 'progress': 'cmake'}
+[0.014768] (joy) JobProgress: {'identifier': 'joy', 'progress': 'build'}
+[0.015655] (joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/penship/rover/src/build/joy', '--', '-j8', '-l8'], 'cwd': '/home/penship/rover/src/build/joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'penship'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1789'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/penship'), ('OLDPWD', '/home/penship'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/penship/rover/src/install:/home/penship/rover/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'penship'), ('JOURNAL_STREAM', '8:47845'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'penship'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/penship/ardupilot/Tools/autotest:/home/penship/ardupilot/Tools/autotest:/home/penship/ardupilot/ardupilot_env/bin:/path/to/webots:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Kansa:@/tmp/.ICE-unix/1827,unix/Kansa:/tmp/.ICE-unix/1827'), ('INVOCATION_ID', 'bb831f985f3f4af1a8afb4236f3349ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/944d276b_cb64_4203_96e6_bb7e90778197'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/penship/rover/src/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/penship/rover/src/build/joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/penship/rover/src/install/joy:/opt/ros/foxy')]), 'shell': False}
+[0.085138] (joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rov_joy_controller\x1b[0m\n'}
+[0.100009] (-) TimerEvent: {}
+[0.135365] (joy) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rov_joy_controller.dir/src/joy.cpp.o\x1b[0m\n'}
+[0.200180] (-) TimerEvent: {}
+[0.300502] (-) TimerEvent: {}
+[0.400779] (-) TimerEvent: {}
+[0.501086] (-) TimerEvent: {}
+[0.601458] (-) TimerEvent: {}
+[0.701788] (-) TimerEvent: {}
+[0.802110] (-) TimerEvent: {}
+[0.902448] (-) TimerEvent: {}
+[1.002977] (-) TimerEvent: {}
+[1.103362] (-) TimerEvent: {}
+[1.203960] (-) TimerEvent: {}
+[1.304414] (-) TimerEvent: {}
+[1.404861] (-) TimerEvent: {}
+[1.505358] (-) TimerEvent: {}
+[1.606035] (-) TimerEvent: {}
+[1.706455] (-) TimerEvent: {}
+[1.806807] (-) TimerEvent: {}
+[1.907204] (-) TimerEvent: {}
+[2.007632] (-) TimerEvent: {}
+[2.108062] (-) TimerEvent: {}
+[2.208561] (-) TimerEvent: {}
+[2.309161] (-) TimerEvent: {}
+[2.409758] (-) TimerEvent: {}
+[2.510098] (-) TimerEvent: {}
+[2.610473] (-) TimerEvent: {}
+[2.710827] (-) TimerEvent: {}
+[2.811268] (-) TimerEvent: {}
+[2.911997] (-) TimerEvent: {}
+[3.012626] (-) TimerEvent: {}
+[3.112970] (-) TimerEvent: {}
+[3.213334] (-) TimerEvent: {}
+[3.313694] (-) TimerEvent: {}
+[3.414085] (-) TimerEvent: {}
+[3.514491] (-) TimerEvent: {}
+[3.614921] (-) TimerEvent: {}
+[3.715272] (-) TimerEvent: {}
+[3.815654] (-) TimerEvent: {}
+[3.916021] (-) TimerEvent: {}
+[4.016364] (-) TimerEvent: {}
+[4.116649] (-) TimerEvent: {}
+[4.216990] (-) TimerEvent: {}
+[4.317393] (-) TimerEvent: {}
+[4.417724] (-) TimerEvent: {}
+[4.518073] (-) TimerEvent: {}
+[4.618361] (-) TimerEvent: {}
+[4.718643] (-) TimerEvent: {}
+[4.818949] (-) TimerEvent: {}
+[4.919256] (-) TimerEvent: {}
+[5.019568] (-) TimerEvent: {}
+[5.119896] (-) TimerEvent: {}
+[5.220227] (-) TimerEvent: {}
+[5.320548] (-) TimerEvent: {}
+[5.420872] (-) TimerEvent: {}
+[5.521189] (-) TimerEvent: {}
+[5.621576] (-) TimerEvent: {}
+[5.722028] (-) TimerEvent: {}
+[5.822579] (-) TimerEvent: {}
+[5.922957] (-) TimerEvent: {}
+[6.023383] (-) TimerEvent: {}
+[6.123857] (-) TimerEvent: {}
+[6.224188] (-) TimerEvent: {}
+[6.324529] (-) TimerEvent: {}
+[6.424854] (-) TimerEvent: {}
+[6.525333] (-) TimerEvent: {}
+[6.625907] (-) TimerEvent: {}
+[6.726249] (-) TimerEvent: {}
+[6.826600] (-) TimerEvent: {}
+[6.927006] (-) TimerEvent: {}
+[7.027577] (-) TimerEvent: {}
+[7.127939] (-) TimerEvent: {}
+[7.169253] (joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rov_joy_controller\x1b[0m\n'}
+[7.228063] (-) TimerEvent: {}
+[7.328359] (-) TimerEvent: {}
+[7.428694] (-) TimerEvent: {}
+[7.529136] (-) TimerEvent: {}
+[7.625428] (joy) StdoutLine: {'line': b'[100%] Built target rov_joy_controller\n'}
+[7.629195] (-) TimerEvent: {}
+[7.644561] (joy) CommandEnded: {'returncode': 0}
+[7.646144] (joy) JobProgress: {'identifier': 'joy', 'progress': 'install'}
+[7.666381] (joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/penship/rover/src/build/joy'], 'cwd': '/home/penship/rover/src/build/joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'penship'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1789'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/penship'), ('OLDPWD', '/home/penship'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/penship/rover/src/install:/home/penship/rover/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'penship'), ('JOURNAL_STREAM', '8:47845'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'penship'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/penship/ardupilot/Tools/autotest:/home/penship/ardupilot/Tools/autotest:/home/penship/ardupilot/ardupilot_env/bin:/path/to/webots:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Kansa:@/tmp/.ICE-unix/1827,unix/Kansa:/tmp/.ICE-unix/1827'), ('INVOCATION_ID', 'bb831f985f3f4af1a8afb4236f3349ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/944d276b_cb64_4203_96e6_bb7e90778197'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/penship/rover/src/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/penship/rover/src/build/joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/penship/rover/src/install/joy:/opt/ros/foxy')]), 'shell': False}
+[7.679340] (joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.679792] (joy) StdoutLine: {'line': b'-- Installing: /home/penship/rover/src/install/joy/lib/joy/rov_joy_controller\n'}
+[7.683257] (joy) StdoutLine: {'line': b'-- Set runtime path of "/home/penship/rover/src/install/joy/lib/joy/rov_joy_controller" to ""\n'}
+[7.683552] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/include\n'}
+[7.683812] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/include/joy\n'}
+[7.684046] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/include/joy/joy.h\n'}
+[7.684297] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/ament_index/resource_index/package_run_dependencies/joy\n'}
+[7.684518] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/ament_index/resource_index/parent_prefix_path/joy\n'}
+[7.684825] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/environment/ament_prefix_path.sh\n'}
+[7.685058] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/environment/ament_prefix_path.dsv\n'}
+[7.685249] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/environment/path.sh\n'}
+[7.685446] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/environment/path.dsv\n'}
+[7.685638] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/local_setup.bash\n'}
+[7.685833] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/local_setup.sh\n'}
+[7.686021] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/local_setup.zsh\n'}
+[7.686221] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/local_setup.dsv\n'}
+[7.686434] (joy) StdoutLine: {'line': b'-- Installing: /home/penship/rover/src/install/joy/share/joy/package.dsv\n'}
+[7.686627] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/ament_index/resource_index/packages/joy\n'}
+[7.686897] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/cmake/joyConfig.cmake\n'}
+[7.687424] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/cmake/joyConfig-version.cmake\n'}
+[7.688462] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/package.xml\n'}
+[7.689613] (joy) CommandEnded: {'returncode': 0}
+[7.715459] (joy) JobEnded: {'identifier': 'joy', 'rc': 0}
+[7.716475] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+Invoking command in '/home/penship/rover/src/build/joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/joy -DCMAKE_INSTALL_PREFIX=/home/penship/rover/src/install/joy
+Invoked command in '/home/penship/rover/src/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/joy -DCMAKE_INSTALL_PREFIX=/home/penship/rover/src/install/joy
+Invoking command in '/home/penship/rover/src/build/joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/joy -- -j8 -l8
+Invoked command in '/home/penship/rover/src/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/joy -- -j8 -l8
+Invoking command in '/home/penship/rover/src/build/joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/joy
+Invoked command in '/home/penship/rover/src/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/joy

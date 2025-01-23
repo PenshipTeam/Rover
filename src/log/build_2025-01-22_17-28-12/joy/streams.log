@@ -1,0 +1,80 @@
+[0.023s] Invoking command in '/home/penship/rover/src/build/joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/joy -DCMAKE_INSTALL_PREFIX=/home/penship/rover/src/install/joy
+[0.100s] -- The C compiler identification is GNU 9.4.0
+[0.164s] -- The CXX compiler identification is GNU 9.4.0
+[0.169s] -- Check for working C compiler: /usr/bin/cc
+[0.264s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.265s] -- Detecting C compiler ABI info
+[0.350s] -- Detecting C compiler ABI info - done
+[0.365s] -- Detecting C compile features
+[0.366s] -- Detecting C compile features - done
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.469s] -- Detecting CXX compiler ABI info
+[0.564s] -- Detecting CXX compiler ABI info - done
+[0.580s] -- Detecting CXX compile features
+[0.580s] -- Detecting CXX compile features - done
+[0.583s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.601s] -- Found PythonInterp: /home/penship/ardupilot/ardupilot_env/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.601s] -- Using PYTHON_EXECUTABLE: /home/penship/ardupilot/ardupilot_env/bin/python3
+[0.794s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.859s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.866s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.971s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.003s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.175s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.178s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.179s] -- Looking for pthread.h
+[1.289s] -- Looking for pthread.h - found
+[1.289s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.394s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.394s] -- Looking for pthread_create in pthreads
+[1.492s] -- Looking for pthread_create in pthreads - not found
+[1.492s] -- Looking for pthread_create in pthread
+[1.593s] -- Looking for pthread_create in pthread - found
+[1.594s] -- Found Threads: TRUE  
+[1.792s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.938s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.067s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.069s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.069s] -- Configured cppcheck include dirs: /home/penship/rover/src/joy/include
+[2.069s] -- Configured cppcheck exclude dirs and/or files: 
+[2.070s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.070s] -- Configured cpplint exclude dirs and/or files: 
+[2.071s] -- Added test 'lint_cmake' to check CMake code style
+[2.072s] -- Added test 'uncrustify' to check C / C++ code style
+[2.072s] -- Configured uncrustify additional arguments: 
+[2.073s] -- Added test 'xmllint' to check XML markup files
+[2.077s] -- Configuring done
+[2.087s] -- Generating done
+[2.091s] -- Build files have been written to: /home/penship/rover/src/build/joy
+[2.100s] Invoked command in '/home/penship/rover/src/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/joy -DCMAKE_INSTALL_PREFIX=/home/penship/rover/src/install/joy
+[2.104s] Invoking command in '/home/penship/rover/src/build/joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/joy -- -j8 -l8
+[2.157s] [35m[1mScanning dependencies of target rov_joy_controller[0m
+[2.223s] [ 50%] [32mBuilding CXX object CMakeFiles/rov_joy_controller.dir/src/joy.cpp.o[0m
+[8.571s] [100%] [32m[1mLinking CXX executable rov_joy_controller[0m
+[8.914s] [100%] Built target rov_joy_controller
+[8.934s] Invoked command in '/home/penship/rover/src/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/joy -- -j8 -l8
+[8.952s] Invoking command in '/home/penship/rover/src/build/joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/joy
+[8.962s] -- Install configuration: ""
+[8.962s] -- Installing: /home/penship/rover/src/install/joy/lib/joy/rov_joy_controller
+[8.965s] -- Set runtime path of "/home/penship/rover/src/install/joy/lib/joy/rov_joy_controller" to ""
+[8.965s] -- Installing: /home/penship/rover/src/install/joy/include
+[8.965s] -- Installing: /home/penship/rover/src/install/joy/include/joy
+[8.965s] -- Installing: /home/penship/rover/src/install/joy/include/joy/joy.h
+[8.965s] -- Installing: /home/penship/rover/src/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[8.965s] -- Installing: /home/penship/rover/src/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[8.966s] -- Installing: /home/penship/rover/src/install/joy/share/joy/environment/ament_prefix_path.sh
+[8.966s] -- Installing: /home/penship/rover/src/install/joy/share/joy/environment/ament_prefix_path.dsv
+[8.966s] -- Installing: /home/penship/rover/src/install/joy/share/joy/environment/path.sh
+[8.966s] -- Installing: /home/penship/rover/src/install/joy/share/joy/environment/path.dsv
+[8.966s] -- Installing: /home/penship/rover/src/install/joy/share/joy/local_setup.bash
+[8.967s] -- Installing: /home/penship/rover/src/install/joy/share/joy/local_setup.sh
+[8.967s] -- Installing: /home/penship/rover/src/install/joy/share/joy/local_setup.zsh
+[8.967s] -- Installing: /home/penship/rover/src/install/joy/share/joy/local_setup.dsv
+[8.967s] -- Installing: /home/penship/rover/src/install/joy/share/joy/package.dsv
+[8.968s] -- Installing: /home/penship/rover/src/install/joy/share/ament_index/resource_index/packages/joy
+[8.968s] -- Installing: /home/penship/rover/src/install/joy/share/joy/cmake/joyConfig.cmake
+[8.968s] -- Installing: /home/penship/rover/src/install/joy/share/joy/cmake/joyConfig-version.cmake
+[8.969s] -- Installing: /home/penship/rover/src/install/joy/share/joy/package.xml
+[8.973s] Invoked command in '/home/penship/rover/src/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/joy

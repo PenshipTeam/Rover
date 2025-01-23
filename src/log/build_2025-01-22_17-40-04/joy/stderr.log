@@ -1,0 +1,13 @@
+[01m[K/home/penship/rover/src/joy/src/joy.cpp:[m[K In member function ‘[01m[Kvoid ROVJoyController::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/penship/rover/src/joy/src/joy.cpp:24:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdpad_up[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   24 |     bool [01;35m[Kdpad_up[m[K = joy_msg->buttons[13];
+      |          [01;35m[K^~~~~~~[m[K
+[01m[K/home/penship/rover/src/joy/src/joy.cpp:25:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdpad_down[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   25 |     bool [01;35m[Kdpad_down[m[K = joy_msg->buttons[14];
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/penship/rover/src/joy/src/joy.cpp:26:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdpad_left[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   26 |     bool [01;35m[Kdpad_left[m[K = joy_msg->buttons[15];
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/penship/rover/src/joy/src/joy.cpp:27:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdpad_right[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   27 |     bool [01;35m[Kdpad_right[m[K = joy_msg->buttons[16];
+      |          [01;35m[K^~~~~~~~~~[m[K
