@@ -1,0 +1,53 @@
+[0.030s] Invoking command in '/home/penship/rover/src/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/motor -DCMAKE_INSTALL_PREFIX=/home/penship/rover/src/install/motor
+[0.118s] -- The C compiler identification is GNU 9.4.0
+[0.187s] -- The CXX compiler identification is GNU 9.4.0
+[0.195s] -- Check for working C compiler: /usr/bin/cc
+[0.277s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.279s] -- Detecting C compiler ABI info
+[0.373s] -- Detecting C compiler ABI info - done
+[0.389s] -- Detecting C compile features
+[0.389s] -- Detecting C compile features - done
+[0.393s] -- Check for working CXX compiler: /usr/bin/c++
+[0.494s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.496s] -- Detecting CXX compiler ABI info
+[0.637s] -- Detecting CXX compiler ABI info - done
+[0.663s] -- Detecting CXX compile features
+[0.663s] -- Detecting CXX compile features - done
+[0.666s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.690s] -- Found PythonInterp: /home/penship/ardupilot/ardupilot_env/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.690s] -- Using PYTHON_EXECUTABLE: /home/penship/ardupilot/ardupilot_env/bin/python3
+[0.893s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.013s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.015s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.016s] -- Configured cppcheck include dirs: 
+[1.016s] -- Configured cppcheck exclude dirs and/or files: 
+[1.017s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.017s] -- Configured cpplint exclude dirs and/or files: 
+[1.018s] -- Added test 'lint_cmake' to check CMake code style
+[1.020s] -- Added test 'uncrustify' to check C / C++ code style
+[1.020s] -- Configured uncrustify additional arguments: 
+[1.021s] -- Added test 'xmllint' to check XML markup files
+[1.024s] -- Configuring done
+[1.028s] -- Generating done
+[1.030s] -- Build files have been written to: /home/penship/rover/src/build/motor
+[1.046s] Invoked command in '/home/penship/rover/src/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/motor -DCMAKE_INSTALL_PREFIX=/home/penship/rover/src/install/motor
+[1.050s] Invoking command in '/home/penship/rover/src/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/motor -- -j8 -l8
+[1.096s] Invoked command in '/home/penship/rover/src/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/motor -- -j8 -l8
+[1.106s] Invoking command in '/home/penship/rover/src/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/motor
+[1.118s] -- Install configuration: ""
+[1.118s] -- Installing: /home/penship/rover/src/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+[1.119s] -- Installing: /home/penship/rover/src/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+[1.119s] -- Installing: /home/penship/rover/src/install/motor/share/motor/environment/ament_prefix_path.sh
+[1.119s] -- Installing: /home/penship/rover/src/install/motor/share/motor/environment/ament_prefix_path.dsv
+[1.120s] -- Installing: /home/penship/rover/src/install/motor/share/motor/environment/path.sh
+[1.120s] -- Installing: /home/penship/rover/src/install/motor/share/motor/environment/path.dsv
+[1.121s] -- Installing: /home/penship/rover/src/install/motor/share/motor/local_setup.bash
+[1.121s] -- Installing: /home/penship/rover/src/install/motor/share/motor/local_setup.sh
+[1.122s] -- Installing: /home/penship/rover/src/install/motor/share/motor/local_setup.zsh
+[1.122s] -- Installing: /home/penship/rover/src/install/motor/share/motor/local_setup.dsv
+[1.122s] -- Installing: /home/penship/rover/src/install/motor/share/motor/package.dsv
+[1.123s] -- Installing: /home/penship/rover/src/install/motor/share/ament_index/resource_index/packages/motor
+[1.123s] -- Installing: /home/penship/rover/src/install/motor/share/motor/cmake/motorConfig.cmake
+[1.123s] -- Installing: /home/penship/rover/src/install/motor/share/motor/cmake/motorConfig-version.cmake
+[1.123s] -- Installing: /home/penship/rover/src/install/motor/share/motor/package.xml
+[1.153s] Invoked command in '/home/penship/rover/src/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/motor

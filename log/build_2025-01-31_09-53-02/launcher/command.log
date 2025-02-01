@@ -1,0 +1,4 @@
+Invoking command in '/home/penship/rover/build/launcher': /usr/bin/cmake /home/penship/rover/src/launcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/launcher
+Invoked command in '/home/penship/rover/build/launcher' returned '0': /usr/bin/cmake /home/penship/rover/src/launcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/launcher
+Invoking command in '/home/penship/rover/build/launcher': /usr/bin/cmake --build /home/penship/rover/build/launcher -- -j8 -l8
+Invoked command in '/home/penship/rover/build/launcher' returned '0': /usr/bin/cmake --build /home/penship/rover/build/launcher -- -j8 -l8

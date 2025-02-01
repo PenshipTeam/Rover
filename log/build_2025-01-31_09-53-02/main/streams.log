@@ -1,0 +1,55 @@
+[0.078s] Invoking command in '/home/penship/rover/build/main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/main -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/main
+[0.227s] -- The C compiler identification is GNU 9.4.0
+[0.350s] -- The CXX compiler identification is GNU 9.4.0
+[0.357s] -- Check for working C compiler: /usr/bin/cc
+[0.444s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.446s] -- Detecting C compiler ABI info
+[0.551s] -- Detecting C compiler ABI info - done
+[0.565s] -- Detecting C compile features
+[0.565s] -- Detecting C compile features - done
+[0.569s] -- Check for working CXX compiler: /usr/bin/c++
+[0.669s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.670s] -- Detecting CXX compiler ABI info
+[0.881s] -- Detecting CXX compiler ABI info - done
+[0.929s] -- Detecting CXX compile features
+[0.933s] -- Detecting CXX compile features - done
+[0.938s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.981s] -- Found PythonInterp: /home/penship/ardupilot/ardupilot_env/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.985s] -- Using PYTHON_EXECUTABLE: /home/penship/ardupilot/ardupilot_env/bin/python3
+[1.188s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.233s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.401s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.404s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.404s] -- Configured cppcheck include dirs: 
+[1.404s] -- Configured cppcheck exclude dirs and/or files: 
+[1.405s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.406s] -- Configured cpplint exclude dirs and/or files: 
+[1.406s] -- Added test 'lint_cmake' to check CMake code style
+[1.408s] -- Added test 'uncrustify' to check C / C++ code style
+[1.408s] -- Configured uncrustify additional arguments: 
+[1.409s] -- Added test 'xmllint' to check XML markup files
+[1.413s] -- Configuring done
+[1.417s] -- Generating done
+[1.419s] -- Build files have been written to: /home/penship/rover/build/main
+[1.426s] Invoked command in '/home/penship/rover/build/main' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/main -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/main
+[1.432s] Invoking command in '/home/penship/rover/build/main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/build/main -- -j8 -l8
+[1.508s] Invoked command in '/home/penship/rover/build/main' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/build/main -- -j8 -l8
+[1.544s] Invoking command in '/home/penship/rover/build/main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/build/main
+[1.563s] -- Install configuration: ""
+[1.563s] -- Execute custom install script
+[1.563s] -- Symlinking: /home/penship/rover/install/main/share/ament_index/resource_index/package_run_dependencies/main
+[1.586s] -- Symlinking: /home/penship/rover/install/main/share/ament_index/resource_index/parent_prefix_path/main
+[1.603s] -- Symlinking: /home/penship/rover/install/main/share/main/environment/ament_prefix_path.sh
+[1.618s] -- Symlinking: /home/penship/rover/install/main/share/main/environment/ament_prefix_path.dsv
+[1.632s] -- Symlinking: /home/penship/rover/install/main/share/main/environment/path.sh
+[1.649s] -- Symlinking: /home/penship/rover/install/main/share/main/environment/path.dsv
+[1.665s] -- Symlinking: /home/penship/rover/install/main/share/main/local_setup.bash
+[1.679s] -- Symlinking: /home/penship/rover/install/main/share/main/local_setup.sh
+[1.692s] -- Symlinking: /home/penship/rover/install/main/share/main/local_setup.zsh
+[1.705s] -- Symlinking: /home/penship/rover/install/main/share/main/local_setup.dsv
+[1.718s] -- Symlinking: /home/penship/rover/install/main/share/main/package.dsv
+[1.729s] -- Symlinking: /home/penship/rover/install/main/share/ament_index/resource_index/packages/main
+[1.742s] -- Symlinking: /home/penship/rover/install/main/share/main/cmake/mainConfig.cmake
+[1.756s] -- Symlinking: /home/penship/rover/install/main/share/main/cmake/mainConfig-version.cmake
+[1.770s] -- Symlinking: /home/penship/rover/install/main/share/main/package.xml
+[1.786s] Invoked command in '/home/penship/rover/build/main' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/build/main

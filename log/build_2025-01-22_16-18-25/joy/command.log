@@ -1,2 +1,0 @@
-Invoking command in '/home/penship/rover/build/joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/joy
-Invoked command in '/home/penship/rover/build/joy' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/joy

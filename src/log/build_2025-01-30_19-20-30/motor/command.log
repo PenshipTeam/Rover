@@ -1,0 +1,6 @@
+Invoking command in '/home/penship/rover/src/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/motor -DCMAKE_INSTALL_PREFIX=/home/penship/rover/src/install/motor
+Invoked command in '/home/penship/rover/src/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/motor -DCMAKE_INSTALL_PREFIX=/home/penship/rover/src/install/motor
+Invoking command in '/home/penship/rover/src/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/motor -- -j8 -l8
+Invoked command in '/home/penship/rover/src/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/motor -- -j8 -l8
+Invoking command in '/home/penship/rover/src/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/motor
+Invoked command in '/home/penship/rover/src/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/motor

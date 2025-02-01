@@ -1,0 +1,2 @@
+/home/penship/rover/build/launcher/CMakeFiles/rebuild_cache.dir
+/home/penship/rover/build/launcher/CMakeFiles/edit_cache.dir

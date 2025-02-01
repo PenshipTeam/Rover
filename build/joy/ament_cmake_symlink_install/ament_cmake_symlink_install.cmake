@@ -312,3 +312,48 @@ message(STATUS "Execute custom install script")
 
 # install("TARGETS" "rov_joy_controller" "DESTINATION" "lib/joy")
 include("/home/penship/rover/build/joy/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "include/" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/penship/rover/src/joy" DIRECTORY "include/" "DESTINATION" "include")
+
+# install(FILES "/home/penship/rover/build/joy/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/joy" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/home/penship/rover/build/joy/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/joy" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/penship/rover/build/joy/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/joy" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/home/penship/rover/build/joy/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/joy" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/joy/environment")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/joy/environment")
+
+# install(FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/joy/environment")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/joy/environment")
+
+# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/joy/environment")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/joy/environment")
+
+# install(FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/joy/environment")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/joy/environment")
+
+# install(FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/joy")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/joy")
+
+# install(FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/joy")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/joy")
+
+# install(FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/joy")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/joy")
+
+# install(FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/joy")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/joy")
+
+# install(FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/joy")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/home/penship/rover/build/joy/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/joy")
+
+# install(FILES "/home/penship/rover/build/joy/ament_cmake_index/share/ament_index/resource_index/packages/joy" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/home/penship/rover/build/joy/ament_cmake_index/share/ament_index/resource_index/packages/joy" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/penship/rover/build/joy/ament_cmake_core/joyConfig.cmake" "/home/penship/rover/build/joy/ament_cmake_core/joyConfig-version.cmake" "DESTINATION" "share/joy/cmake")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/home/penship/rover/build/joy/ament_cmake_core/joyConfig.cmake" "/home/penship/rover/build/joy/ament_cmake_core/joyConfig-version.cmake" "DESTINATION" "share/joy/cmake")
+
+# install(FILES "/home/penship/rover/src/joy/package.xml" "DESTINATION" "share/joy")
+ament_cmake_symlink_install_files("/home/penship/rover/src/joy" FILES "/home/penship/rover/src/joy/package.xml" "DESTINATION" "share/joy")

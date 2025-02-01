@@ -1,0 +1,6 @@
+Invoking command in '/home/penship/rover/src/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/vision -DCMAKE_INSTALL_PREFIX=/home/penship/rover/src/install/vision
+Invoked command in '/home/penship/rover/src/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/vision -DCMAKE_INSTALL_PREFIX=/home/penship/rover/src/install/vision
+Invoking command in '/home/penship/rover/src/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/vision -- -j8 -l8
+Invoked command in '/home/penship/rover/src/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/src/build/vision -- -j8 -l8
+Invoking command in '/home/penship/rover/src/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/vision
+Invoked command in '/home/penship/rover/src/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/src/build/vision

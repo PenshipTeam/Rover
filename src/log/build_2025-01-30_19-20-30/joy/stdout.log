@@ -1,0 +1,22 @@
+[100%] Built target rov_joy_controller
+-- Install configuration: ""
+-- Up-to-date: /home/penship/rover/src/install/joy/lib/joy/rov_joy_controller
+-- Up-to-date: /home/penship/rover/src/install/joy/include
+-- Up-to-date: /home/penship/rover/src/install/joy/include/joy
+-- Up-to-date: /home/penship/rover/src/install/joy/include/joy/joy.h
+-- Up-to-date: /home/penship/rover/src/install/joy/include/joy/joy.h.save
+-- Up-to-date: /home/penship/rover/src/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+-- Up-to-date: /home/penship/rover/src/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/environment/ament_prefix_path.sh
+-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/environment/path.sh
+-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/environment/path.dsv
+-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/local_setup.bash
+-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/local_setup.sh
+-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/local_setup.zsh
+-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/local_setup.dsv
+-- Installing: /home/penship/rover/src/install/joy/share/joy/package.dsv
+-- Up-to-date: /home/penship/rover/src/install/joy/share/ament_index/resource_index/packages/joy
+-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/cmake/joyConfig.cmake
+-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/cmake/joyConfig-version.cmake
+-- Up-to-date: /home/penship/rover/src/install/joy/share/joy/package.xml

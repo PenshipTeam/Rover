@@ -1,0 +1,40 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/penship/ardupilot/ardupilot_env/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/penship/ardupilot/ardupilot_env/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/penship/rover/src/build/main
+-- Install configuration: ""
+-- Installing: /home/penship/rover/src/install/main/share/ament_index/resource_index/package_run_dependencies/main
+-- Installing: /home/penship/rover/src/install/main/share/ament_index/resource_index/parent_prefix_path/main
+-- Installing: /home/penship/rover/src/install/main/share/main/environment/ament_prefix_path.sh
+-- Installing: /home/penship/rover/src/install/main/share/main/environment/ament_prefix_path.dsv
+-- Installing: /home/penship/rover/src/install/main/share/main/environment/path.sh
+-- Installing: /home/penship/rover/src/install/main/share/main/environment/path.dsv
+-- Installing: /home/penship/rover/src/install/main/share/main/local_setup.bash
+-- Installing: /home/penship/rover/src/install/main/share/main/local_setup.sh
+-- Installing: /home/penship/rover/src/install/main/share/main/local_setup.zsh
+-- Installing: /home/penship/rover/src/install/main/share/main/local_setup.dsv
+-- Installing: /home/penship/rover/src/install/main/share/main/package.dsv
+-- Installing: /home/penship/rover/src/install/main/share/ament_index/resource_index/packages/main
+-- Installing: /home/penship/rover/src/install/main/share/main/cmake/mainConfig.cmake
+-- Installing: /home/penship/rover/src/install/main/share/main/cmake/mainConfig-version.cmake
+-- Installing: /home/penship/rover/src/install/main/share/main/package.xml

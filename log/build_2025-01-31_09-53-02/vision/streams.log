@@ -1,0 +1,48 @@
+[0.090s] Invoking command in '/home/penship/rover/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/vision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/vision
+[0.246s] -- The C compiler identification is GNU 9.4.0
+[0.348s] -- The CXX compiler identification is GNU 9.4.0
+[0.354s] -- Check for working C compiler: /usr/bin/cc
+[0.455s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.457s] -- Detecting C compiler ABI info
+[0.568s] -- Detecting C compiler ABI info - done
+[0.584s] -- Detecting C compile features
+[0.585s] -- Detecting C compile features - done
+[0.588s] -- Check for working CXX compiler: /usr/bin/c++
+[0.723s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.728s] -- Detecting CXX compiler ABI info
+[1.010s] -- Detecting CXX compiler ABI info - done
+[1.041s] -- Detecting CXX compile features
+[1.042s] -- Detecting CXX compile features - done
+[1.046s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.070s] -- Found PythonInterp: /home/penship/ardupilot/ardupilot_env/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.070s] -- Using PYTHON_EXECUTABLE: /home/penship/ardupilot/ardupilot_env/bin/python3
+[1.244s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.296s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.467s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.470s] -- Added test 'lint_cmake' to check CMake code style
+[1.473s] -- Added test 'xmllint' to check XML markup files
+[1.479s] -- Configuring done
+[1.485s] -- Generating done
+[1.491s] -- Build files have been written to: /home/penship/rover/build/vision
+[1.529s] Invoked command in '/home/penship/rover/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/vision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/vision
+[1.533s] Invoking command in '/home/penship/rover/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/build/vision -- -j8 -l8
+[1.612s] Invoked command in '/home/penship/rover/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/build/vision -- -j8 -l8
+[1.618s] Invoking command in '/home/penship/rover/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/build/vision
+[1.634s] -- Install configuration: ""
+[1.635s] -- Execute custom install script
+[1.636s] -- Symlinking: /home/penship/rover/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[1.652s] -- Symlinking: /home/penship/rover/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[1.666s] -- Symlinking: /home/penship/rover/install/vision/share/vision/environment/ament_prefix_path.sh
+[1.679s] -- Symlinking: /home/penship/rover/install/vision/share/vision/environment/ament_prefix_path.dsv
+[1.693s] -- Symlinking: /home/penship/rover/install/vision/share/vision/environment/path.sh
+[1.706s] -- Symlinking: /home/penship/rover/install/vision/share/vision/environment/path.dsv
+[1.722s] -- Symlinking: /home/penship/rover/install/vision/share/vision/local_setup.bash
+[1.737s] -- Symlinking: /home/penship/rover/install/vision/share/vision/local_setup.sh
+[1.751s] -- Symlinking: /home/penship/rover/install/vision/share/vision/local_setup.zsh
+[1.767s] -- Symlinking: /home/penship/rover/install/vision/share/vision/local_setup.dsv
+[1.781s] -- Symlinking: /home/penship/rover/install/vision/share/vision/package.dsv
+[1.797s] -- Symlinking: /home/penship/rover/install/vision/share/ament_index/resource_index/packages/vision
+[1.817s] -- Symlinking: /home/penship/rover/install/vision/share/vision/cmake/visionConfig.cmake
+[1.831s] -- Symlinking: /home/penship/rover/install/vision/share/vision/cmake/visionConfig-version.cmake
+[1.844s] -- Symlinking: /home/penship/rover/install/vision/share/vision/package.xml
+[1.868s] Invoked command in '/home/penship/rover/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/build/vision

@@ -1,0 +1,9 @@
+/home/penship/rover/build/motor/CMakeFiles/install/strip.dir
+/home/penship/rover/build/motor/CMakeFiles/install.dir
+/home/penship/rover/build/motor/CMakeFiles/list_install_components.dir
+/home/penship/rover/build/motor/CMakeFiles/rebuild_cache.dir
+/home/penship/rover/build/motor/CMakeFiles/edit_cache.dir
+/home/penship/rover/build/motor/CMakeFiles/test.dir
+/home/penship/rover/build/motor/CMakeFiles/install/local.dir
+/home/penship/rover/build/motor/CMakeFiles/motor_uninstall.dir
+/home/penship/rover/build/motor/CMakeFiles/uninstall.dir
