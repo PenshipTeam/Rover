@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/penship/rover/install/main/share/ament_index/resource_index/package_run_dependencies/main
+-- Symlinking: /home/penship/rover/install/main/share/ament_index/resource_index/parent_prefix_path/main
+-- Symlinking: /home/penship/rover/install/main/share/main/environment/ament_prefix_path.sh
+-- Symlinking: /home/penship/rover/install/main/share/main/environment/ament_prefix_path.dsv
+-- Symlinking: /home/penship/rover/install/main/share/main/environment/path.sh
+-- Symlinking: /home/penship/rover/install/main/share/main/environment/path.dsv
+-- Symlinking: /home/penship/rover/install/main/share/main/local_setup.bash
+-- Symlinking: /home/penship/rover/install/main/share/main/local_setup.sh
+-- Symlinking: /home/penship/rover/install/main/share/main/local_setup.zsh
+-- Symlinking: /home/penship/rover/install/main/share/main/local_setup.dsv
+-- Symlinking: /home/penship/rover/install/main/share/main/package.dsv
+-- Symlinking: /home/penship/rover/install/main/share/ament_index/resource_index/packages/main
+-- Symlinking: /home/penship/rover/install/main/share/main/cmake/mainConfig.cmake
+-- Symlinking: /home/penship/rover/install/main/share/main/cmake/mainConfig-version.cmake
+-- Symlinking: /home/penship/rover/install/main/share/main/package.xml

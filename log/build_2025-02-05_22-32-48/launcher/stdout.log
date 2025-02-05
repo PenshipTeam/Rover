@@ -1,0 +1,31 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/penship/ardupilot/ardupilot_env/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/penship/rover/build/launcher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher//launch/main.launch.py
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher//launch/rover_launch.py
+-- Symlinking: /home/penship/rover/install/launcher/share/ament_index/resource_index/package_run_dependencies/launcher
+-- Symlinking: /home/penship/rover/install/launcher/share/ament_index/resource_index/parent_prefix_path/launcher
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher/environment/ament_prefix_path.sh
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher/environment/ament_prefix_path.dsv
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher/environment/path.sh
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher/environment/path.dsv
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher/local_setup.bash
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher/local_setup.sh
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher/local_setup.zsh
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher/local_setup.dsv
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher/package.dsv
+-- Symlinking: /home/penship/rover/install/launcher/share/ament_index/resource_index/packages/launcher
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher/cmake/launcherConfig.cmake
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher/cmake/launcherConfig-version.cmake
+-- Symlinking: /home/penship/rover/install/launcher/share/launcher/package.xml

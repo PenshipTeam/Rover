@@ -1,0 +1,30 @@
+[0.017s] Invoking command in '/home/penship/rover/build/launcher': /usr/bin/cmake /home/penship/rover/src/launcher -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/launcher
+[0.033s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.050s] -- Using PYTHON_EXECUTABLE: /home/penship/ardupilot/ardupilot_env/bin/python3
+[0.185s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.232s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.236s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.414s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.415s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.566s] CMake Error at CMakeLists.txt:21 (find_package):
+[0.567s]   By not providing "Findlaunch_ros.cmake" in CMAKE_MODULE_PATH this project
+[0.567s]   has asked CMake to find a package configuration file provided by
+[0.567s]   "launch_ros", but CMake did not find one.
+[0.567s] 
+[0.567s]   Could not find a package configuration file provided by "launch_ros" with
+[0.567s]   any of the following names:
+[0.567s] 
+[0.568s]     launch_rosConfig.cmake
+[0.568s]     launch_ros-config.cmake
+[0.568s] 
+[0.568s]   Add the installation prefix of "launch_ros" to CMAKE_PREFIX_PATH or set
+[0.568s]   "launch_ros_DIR" to a directory containing one of the above files.  If
+[0.568s]   "launch_ros" provides a separate development package or SDK, be sure it has
+[0.568s]   been installed.
+[0.568s] 
+[0.569s] 
+[0.569s] -- Configuring incomplete, errors occurred!
+[0.569s] See also "/home/penship/rover/build/launcher/CMakeFiles/CMakeOutput.log".
+[0.569s] See also "/home/penship/rover/build/launcher/CMakeFiles/CMakeError.log".
+[0.576s] Invoked command in '/home/penship/rover/build/launcher' returned '1': /usr/bin/cmake /home/penship/rover/src/launcher -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/launcher

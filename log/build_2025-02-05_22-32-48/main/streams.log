@@ -1,0 +1,21 @@
+[0.050s] Invoking command in '/home/penship/rover/build/main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/build/main -- -j8 -l8
+[0.118s] Invoked command in '/home/penship/rover/build/main' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/build/main -- -j8 -l8
+[0.140s] Invoking command in '/home/penship/rover/build/main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/build/main
+[0.159s] -- Install configuration: ""
+[0.165s] -- Execute custom install script
+[0.166s] -- Up-to-date symlink: /home/penship/rover/install/main/share/ament_index/resource_index/package_run_dependencies/main
+[0.166s] -- Up-to-date symlink: /home/penship/rover/install/main/share/ament_index/resource_index/parent_prefix_path/main
+[0.166s] -- Up-to-date symlink: /home/penship/rover/install/main/share/main/environment/ament_prefix_path.sh
+[0.166s] -- Up-to-date symlink: /home/penship/rover/install/main/share/main/environment/ament_prefix_path.dsv
+[0.166s] -- Up-to-date symlink: /home/penship/rover/install/main/share/main/environment/path.sh
+[0.166s] -- Up-to-date symlink: /home/penship/rover/install/main/share/main/environment/path.dsv
+[0.167s] -- Up-to-date symlink: /home/penship/rover/install/main/share/main/local_setup.bash
+[0.167s] -- Up-to-date symlink: /home/penship/rover/install/main/share/main/local_setup.sh
+[0.168s] -- Up-to-date symlink: /home/penship/rover/install/main/share/main/local_setup.zsh
+[0.168s] -- Up-to-date symlink: /home/penship/rover/install/main/share/main/local_setup.dsv
+[0.169s] -- Symlinking: /home/penship/rover/install/main/share/main/package.dsv
+[0.185s] -- Up-to-date symlink: /home/penship/rover/install/main/share/ament_index/resource_index/packages/main
+[0.185s] -- Up-to-date symlink: /home/penship/rover/install/main/share/main/cmake/mainConfig.cmake
+[0.186s] -- Up-to-date symlink: /home/penship/rover/install/main/share/main/cmake/mainConfig-version.cmake
+[0.186s] -- Up-to-date symlink: /home/penship/rover/install/main/share/main/package.xml
+[0.198s] Invoked command in '/home/penship/rover/build/main' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/build/main

@@ -1,0 +1,46 @@
+[0.000000] (-) TimerEvent: {}
+[0.000188] (-) JobUnselected: {'identifier': 'joy'}
+[0.000341] (-) JobUnselected: {'identifier': 'main'}
+[0.000376] (-) JobUnselected: {'identifier': 'motor'}
+[0.000402] (-) JobUnselected: {'identifier': 'vision'}
+[0.000447] (launcher) JobQueued: {'identifier': 'launcher', 'dependencies': OrderedDict()}
+[0.000487] (launcher) JobStarted: {'identifier': 'launcher'}
+[0.011023] (launcher) JobProgress: {'identifier': 'launcher', 'progress': 'cmake'}
+[0.011997] (launcher) Command: {'cmd': ['/usr/bin/cmake', '/home/penship/rover/src/launcher', '-DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/launcher'], 'cwd': '/home/penship/rover/build/launcher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'penship'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1459'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/penship'), ('OLDPWD', '/home/penship'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/penship/rover/install:/home/penship/rover/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'penship'), ('JOURNAL_STREAM', '8:44904'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'penship'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/penship/ardupilot/Tools/autotest:/home/penship/ardupilot/Tools/autotest:/home/penship/ardupilot/ardupilot_env/bin:/path/to/webots:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/penship/.local/bin'), ('SESSION_MANAGER', 'local/Kansa:@/tmp/.ICE-unix/1497,unix/Kansa:/tmp/.ICE-unix/1497'), ('INVOCATION_ID', '98c6a6def722477ba3c0f533ee903282'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f17bdcf7_4bf1_4804_8093_b27623a3a101'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.267'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/penship/rover/src/install/vision:/home/penship/rover/src/install/motor:/home/penship/rover/src/install/main:/home/penship/rover/src/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/penship/rover/build/launcher'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/penship/rover/src/install/vision:/home/penship/rover/src/install/motor:/home/penship/rover/src/install/main:/home/penship/rover/src/install/joy:/opt/ros/foxy')]), 'shell': False}
+[0.033443] (launcher) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.052930] (launcher) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/penship/ardupilot/ardupilot_env/bin/python3\n'}
+[0.098934] (-) TimerEvent: {}
+[0.199361] (-) TimerEvent: {}
+[0.211926] (launcher) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.254035] (launcher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.258070] (launcher) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299503] (-) TimerEvent: {}
+[0.399406] (launcher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399869] (-) TimerEvent: {}
+[0.464886] (launcher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.466724] (launcher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500027] (-) TimerEvent: {}
+[0.600464] (-) TimerEvent: {}
+[0.638563] (launcher) StderrLine: {'line': b'CMake Error at CMakeLists.txt:21 (find_package):\n'}
+[0.638798] (launcher) StderrLine: {'line': b'  By not providing "Findlaunch_ros.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.638877] (launcher) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.638945] (launcher) StderrLine: {'line': b'  "launch_ros", but CMake did not find one.\n'}
+[0.639012] (launcher) StderrLine: {'line': b'\n'}
+[0.639077] (launcher) StderrLine: {'line': b'  Could not find a package configuration file provided by "launch_ros" with\n'}
+[0.639142] (launcher) StderrLine: {'line': b'  any of the following names:\n'}
+[0.639223] (launcher) StderrLine: {'line': b'\n'}
+[0.639284] (launcher) StderrLine: {'line': b'    launch_rosConfig.cmake\n'}
+[0.639346] (launcher) StderrLine: {'line': b'    launch_ros-config.cmake\n'}
+[0.639407] (launcher) StderrLine: {'line': b'\n'}
+[0.639498] (launcher) StderrLine: {'line': b'  Add the installation prefix of "launch_ros" to CMAKE_PREFIX_PATH or set\n'}
+[0.639559] (launcher) StderrLine: {'line': b'  "launch_ros_DIR" to a directory containing one of the above files.  If\n'}
+[0.639619] (launcher) StderrLine: {'line': b'  "launch_ros" provides a separate development package or SDK, be sure it has\n'}
+[0.639679] (launcher) StderrLine: {'line': b'  been installed.\n'}
+[0.639739] (launcher) StderrLine: {'line': b'\n'}
+[0.639799] (launcher) StderrLine: {'line': b'\n'}
+[0.640243] (launcher) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.640396] (launcher) StdoutLine: {'line': b'See also "/home/penship/rover/build/launcher/CMakeFiles/CMakeOutput.log".\n'}
+[0.640469] (launcher) StdoutLine: {'line': b'See also "/home/penship/rover/build/launcher/CMakeFiles/CMakeError.log".\n'}
+[0.647655] (launcher) CommandEnded: {'returncode': 1}
+[0.675129] (launcher) JobEnded: {'identifier': 'launcher', 'rc': 1}
+[0.685944] (-) EventReactorShutdown: {}

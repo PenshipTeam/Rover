@@ -1,0 +1,5 @@
+[0.052s] Invoking command in '/home/penship/rover/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/build/joy -- -j8 -l8
+[0.128s] [35m[1mScanning dependencies of target rov_joy_controller[0m
+[0.303s] [ 50%] [32mBuilding CXX object CMakeFiles/rov_joy_controller.dir/src/joy.cpp.o[0m
+[6.578s] [100%] [32m[1mLinking CXX executable rov_joy_controller[0m
+[6.994s] [100%] Built target rov_joy_controller

@@ -1,0 +1,21 @@
+[0.048s] Invoking command in '/home/penship/rover/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/build/motor -- -j8 -l8
+[0.147s] Invoked command in '/home/penship/rover/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/build/motor -- -j8 -l8
+[0.155s] Invoking command in '/home/penship/rover/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/build/motor
+[0.177s] -- Install configuration: ""
+[0.177s] -- Execute custom install script
+[0.177s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+[0.177s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+[0.177s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/motor/environment/ament_prefix_path.sh
+[0.178s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/motor/environment/ament_prefix_path.dsv
+[0.178s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/motor/environment/path.sh
+[0.179s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/motor/environment/path.dsv
+[0.179s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/motor/local_setup.bash
+[0.180s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/motor/local_setup.sh
+[0.183s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/motor/local_setup.zsh
+[0.191s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/motor/local_setup.dsv
+[0.191s] -- Symlinking: /home/penship/rover/install/motor/share/motor/package.dsv
+[0.199s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/ament_index/resource_index/packages/motor
+[0.199s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/motor/cmake/motorConfig.cmake
+[0.200s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/motor/cmake/motorConfig-version.cmake
+[0.201s] -- Up-to-date symlink: /home/penship/rover/install/motor/share/motor/package.xml
+[0.226s] Invoked command in '/home/penship/rover/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/build/motor

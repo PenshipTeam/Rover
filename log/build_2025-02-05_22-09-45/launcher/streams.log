@@ -1,0 +1,56 @@
+[0.014s] Invoking command in '/home/penship/rover/build/launcher': /usr/bin/cmake /home/penship/rover/src/launcher -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/launcher
+[0.076s] -- The C compiler identification is GNU 9.4.0
+[0.139s] -- The CXX compiler identification is GNU 9.4.0
+[0.144s] -- Check for working C compiler: /usr/bin/cc
+[0.223s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.224s] -- Detecting C compiler ABI info
+[0.306s] -- Detecting C compiler ABI info - done
+[0.319s] -- Detecting C compile features
+[0.320s] -- Detecting C compile features - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++
+[0.443s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.445s] -- Detecting CXX compiler ABI info
+[0.545s] -- Detecting CXX compiler ABI info - done
+[0.561s] -- Detecting CXX compile features
+[0.561s] -- Detecting CXX compile features - done
+[0.563s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.584s] -- Found PythonInterp: /home/penship/ardupilot/ardupilot_env/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.584s] -- Using PYTHON_EXECUTABLE: /home/penship/ardupilot/ardupilot_env/bin/python3
+[0.746s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.809s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.900s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.938s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.023s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.076s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.078s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.079s] -- Looking for pthread.h
+[1.157s] -- Looking for pthread.h - found
+[1.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.245s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.245s] -- Looking for pthread_create in pthreads
+[1.315s] -- Looking for pthread_create in pthreads - not found
+[1.315s] -- Looking for pthread_create in pthread
+[1.404s] -- Looking for pthread_create in pthread - found
+[1.405s] -- Found Threads: TRUE  
+[1.628s] CMake Error at CMakeLists.txt:21 (find_package):
+[1.629s]   By not providing "Findlaunch_ros.cmake" in CMAKE_MODULE_PATH this project
+[1.629s]   has asked CMake to find a package configuration file provided by
+[1.629s]   "launch_ros", but CMake did not find one.
+[1.629s] 
+[1.629s]   Could not find a package configuration file provided by "launch_ros" with
+[1.629s]   any of the following names:
+[1.629s] 
+[1.629s]     launch_rosConfig.cmake
+[1.629s]     launch_ros-config.cmake
+[1.629s] 
+[1.629s]   Add the installation prefix of "launch_ros" to CMAKE_PREFIX_PATH or set
+[1.629s]   "launch_ros_DIR" to a directory containing one of the above files.  If
+[1.629s]   "launch_ros" provides a separate development package or SDK, be sure it has
+[1.629s]   been installed.
+[1.630s] 
+[1.630s] 
+[1.630s] -- Configuring incomplete, errors occurred!
+[1.631s] See also "/home/penship/rover/build/launcher/CMakeFiles/CMakeOutput.log".
+[1.631s] See also "/home/penship/rover/build/launcher/CMakeFiles/CMakeError.log".
+[1.640s] Invoked command in '/home/penship/rover/build/launcher' returned '1': /usr/bin/cmake /home/penship/rover/src/launcher -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/launcher
