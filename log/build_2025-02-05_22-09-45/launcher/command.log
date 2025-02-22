@@ -1,2 +1,0 @@
-Invoking command in '/home/penship/rover/build/launcher': /usr/bin/cmake /home/penship/rover/src/launcher -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/launcher
-Invoked command in '/home/penship/rover/build/launcher' returned '1': /usr/bin/cmake /home/penship/rover/src/launcher -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/launcher

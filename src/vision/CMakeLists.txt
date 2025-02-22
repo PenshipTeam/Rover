@@ -17,9 +17,26 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(OpenCV REQUIRED)
+find_package(Torch REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(cv_bridge REQUIRED)
+find_package(sensor_msgs REQUIRED)
+
+add_executable(/home/penship/rover/src/vision/src/deteksi.cpp)
+
+target_link_libraries(object_detector
+  ${OpenCV_LIBS}  
+  ${TORCH_LIBRARIES}
+  rclcpp
+  cv_bridges
+  sensor_msgs
+)
+
+install(TARGETS
+  object_detector
+  DESTINATION lib/${PROECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

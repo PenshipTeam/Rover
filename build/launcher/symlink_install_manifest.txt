@@ -1,5 +1,8 @@
-/home/penship/rover/install/launcher/share/launcher//launch/main.launch.py
-/home/penship/rover/install/launcher/share/launcher//launch/rover_launch.py
+/home/penship/rover/install/launcher/share/launcher//launch/joy.launch.py
+/home/penship/rover/install/launcher/share/launcher//launch/mavros.launch.py
+/home/penship/rover/install/launcher/share/launcher//launch/motor.launch.py
+/home/penship/rover/install/launcher/share/launcher//launch/rover.launch.py
+/home/penship/rover/install/launcher/share/launcher//launch/vision.launch.py
 /home/penship/rover/install/launcher/share/ament_index/resource_index/package_run_dependencies/launcher
 /home/penship/rover/install/launcher/share/ament_index/resource_index/parent_prefix_path/launcher
 /home/penship/rover/install/launcher/share/launcher/environment/ament_prefix_path.sh

@@ -1,0 +1,11 @@
+CMake Error at CMakeLists.txt:26 (add_executable):
+  The target name "/home/penship/rover/src/vision/src/deteksi.cpp" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:28 (target_link_libraries):
+  Cannot specify link libraries for target "object_detector" which is not
+  built by this project.
+
+

@@ -1,0 +1,9 @@
+/home/penship/rover/build/strategi/CMakeFiles/install/strip.dir
+/home/penship/rover/build/strategi/CMakeFiles/install/local.dir
+/home/penship/rover/build/strategi/CMakeFiles/install.dir
+/home/penship/rover/build/strategi/CMakeFiles/list_install_components.dir
+/home/penship/rover/build/strategi/CMakeFiles/rebuild_cache.dir
+/home/penship/rover/build/strategi/CMakeFiles/edit_cache.dir
+/home/penship/rover/build/strategi/CMakeFiles/test.dir
+/home/penship/rover/build/strategi/CMakeFiles/strategi_uninstall.dir
+/home/penship/rover/build/strategi/CMakeFiles/uninstall.dir

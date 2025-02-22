@@ -1,1 +1,0 @@
-/home/penship/rover/build/joy/ament_cmake_core/joyConfig.cmake

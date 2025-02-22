@@ -1,0 +1,55 @@
+[0.057s] Invoking command in '/home/penship/rover/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/penship/rover/install/vision:/home/penship/rover/install/strategi:/home/penship/rover/install/motor:/home/penship/rover/install/main:/home/penship/rover/install/launcher:/home/penship/rover/install/joy:/home/penship/rover/src/install/vision:/home/penship/rover/src/install/motor:/home/penship/rover/src/install/main:/home/penship/rover/src/install/joy:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/motor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/motor
+[0.207s] -- The C compiler identification is GNU 9.4.0
+[0.407s] -- The CXX compiler identification is GNU 9.4.0
+[0.424s] -- Check for working C compiler: /usr/bin/cc
+[0.607s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.614s] -- Detecting C compiler ABI info
+[0.919s] -- Detecting C compiler ABI info - done
+[0.978s] -- Detecting C compile features
+[0.979s] -- Detecting C compile features - done
+[0.994s] -- Check for working CXX compiler: /usr/bin/c++
+[1.198s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.201s] -- Detecting CXX compiler ABI info
+[1.392s] -- Detecting CXX compiler ABI info - done
+[1.417s] -- Detecting CXX compile features
+[1.418s] -- Detecting CXX compile features - done
+[1.422s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.452s] -- Found PythonInterp: /home/penship/ardupilot/ardupilot_env/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.453s] -- Using PYTHON_EXECUTABLE: /home/penship/ardupilot/ardupilot_env/bin/python3
+[1.673s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.710s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.837s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.839s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.839s] -- Configured cppcheck include dirs: 
+[1.839s] -- Configured cppcheck exclude dirs and/or files: 
+[1.841s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.841s] -- Configured cpplint exclude dirs and/or files: 
+[1.842s] -- Added test 'lint_cmake' to check CMake code style
+[1.844s] -- Added test 'uncrustify' to check C / C++ code style
+[1.844s] -- Configured uncrustify additional arguments: 
+[1.845s] -- Added test 'xmllint' to check XML markup files
+[1.857s] -- Configuring done
+[1.857s] -- Generating done
+[1.857s] -- Build files have been written to: /home/penship/rover/build/motor
+[1.861s] Invoked command in '/home/penship/rover/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/penship/rover/install/vision:/home/penship/rover/install/strategi:/home/penship/rover/install/motor:/home/penship/rover/install/main:/home/penship/rover/install/launcher:/home/penship/rover/install/joy:/home/penship/rover/src/install/vision:/home/penship/rover/src/install/motor:/home/penship/rover/src/install/main:/home/penship/rover/src/install/joy:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/motor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/motor
+[1.865s] Invoking command in '/home/penship/rover/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/penship/rover/install/vision:/home/penship/rover/install/strategi:/home/penship/rover/install/motor:/home/penship/rover/install/main:/home/penship/rover/install/launcher:/home/penship/rover/install/joy:/home/penship/rover/src/install/vision:/home/penship/rover/src/install/motor:/home/penship/rover/src/install/main:/home/penship/rover/src/install/joy:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/build/motor -- -j8 -l8
+[1.971s] Invoked command in '/home/penship/rover/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/penship/rover/install/vision:/home/penship/rover/install/strategi:/home/penship/rover/install/motor:/home/penship/rover/install/main:/home/penship/rover/install/launcher:/home/penship/rover/install/joy:/home/penship/rover/src/install/vision:/home/penship/rover/src/install/motor:/home/penship/rover/src/install/main:/home/penship/rover/src/install/joy:/opt/ros/foxy /usr/bin/cmake --build /home/penship/rover/build/motor -- -j8 -l8
+[1.976s] Invoking command in '/home/penship/rover/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/penship/rover/install/vision:/home/penship/rover/install/strategi:/home/penship/rover/install/motor:/home/penship/rover/install/main:/home/penship/rover/install/launcher:/home/penship/rover/install/joy:/home/penship/rover/src/install/vision:/home/penship/rover/src/install/motor:/home/penship/rover/src/install/main:/home/penship/rover/src/install/joy:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/build/motor
+[1.990s] -- Install configuration: ""
+[1.990s] -- Execute custom install script
+[1.992s] -- Symlinking: /home/penship/rover/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+[2.008s] -- Symlinking: /home/penship/rover/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+[2.025s] -- Symlinking: /home/penship/rover/install/motor/share/motor/environment/ament_prefix_path.sh
+[2.042s] -- Symlinking: /home/penship/rover/install/motor/share/motor/environment/ament_prefix_path.dsv
+[2.058s] -- Symlinking: /home/penship/rover/install/motor/share/motor/environment/path.sh
+[2.075s] -- Symlinking: /home/penship/rover/install/motor/share/motor/environment/path.dsv
+[2.090s] -- Symlinking: /home/penship/rover/install/motor/share/motor/local_setup.bash
+[2.105s] -- Symlinking: /home/penship/rover/install/motor/share/motor/local_setup.sh
+[2.120s] -- Symlinking: /home/penship/rover/install/motor/share/motor/local_setup.zsh
+[2.139s] -- Symlinking: /home/penship/rover/install/motor/share/motor/local_setup.dsv
+[2.156s] -- Symlinking: /home/penship/rover/install/motor/share/motor/package.dsv
+[2.175s] -- Symlinking: /home/penship/rover/install/motor/share/ament_index/resource_index/packages/motor
+[2.202s] -- Symlinking: /home/penship/rover/install/motor/share/motor/cmake/motorConfig.cmake
+[2.218s] -- Symlinking: /home/penship/rover/install/motor/share/motor/cmake/motorConfig-version.cmake
+[2.235s] -- Symlinking: /home/penship/rover/install/motor/share/motor/package.xml
+[2.257s] Invoked command in '/home/penship/rover/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/penship/rover/install/vision:/home/penship/rover/install/strategi:/home/penship/rover/install/motor:/home/penship/rover/install/main:/home/penship/rover/install/launcher:/home/penship/rover/install/joy:/home/penship/rover/src/install/vision:/home/penship/rover/src/install/motor:/home/penship/rover/src/install/main:/home/penship/rover/src/install/joy:/opt/ros/foxy /usr/bin/cmake --install /home/penship/rover/build/motor

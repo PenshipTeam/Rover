@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target rov_joy_controller[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/rov_joy_controller.dir/src/joy.cpp.o[0m
-[100%] [32m[1mLinking CXX executable rov_joy_controller[0m
-[100%] Built target rov_joy_controller

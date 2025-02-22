@@ -1,0 +1,1 @@
+/home/penship/rover/build/strategi/ament_cmake_core/strategiConfig-version.cmake

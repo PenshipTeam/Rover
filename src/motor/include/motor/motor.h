@@ -18,10 +18,14 @@ public:
     bool set_mode(const std::string& mode);
 
 private:
-    rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr local_pos_pub_;
+    // rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr local_pos_pub_;
     rclcpp::Publisher<mavros_msgs::msg::OverrideRCIn>::SharedPtr motor_pub_;
     rclcpp::Client<mavros_msgs::srv::CommandBool>::SharedPtr arming_client_;
     rclcpp::Client<mavros_msgs::srv::SetMode>::SharedPtr set_mode_client_;
+    rclcpp::Subscrition<mavros_msgs::msg::State>::SharedPtr state_sub_;
+    mavros_msgs::msg::State curent_state_;
+    
+    void state_callback(const mavros_msgs::msg::State::SharedPtr msg);
     bool arming_state_;
 };
 

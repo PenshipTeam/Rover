@@ -1,0 +1,51 @@
+[0.056s] Invoking command in '/home/penship/rover/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/penship/rover/install/vision:/home/penship/rover/install/strategi:/home/penship/rover/install/motor:/home/penship/rover/install/main:/home/penship/rover/install/launcher:/home/penship/rover/install/joy:/home/penship/rover/src/install/vision:/home/penship/rover/src/install/motor:/home/penship/rover/src/install/main:/home/penship/rover/src/install/joy:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/joy
+[0.193s] -- The C compiler identification is GNU 9.4.0
+[0.432s] -- The CXX compiler identification is GNU 9.4.0
+[0.473s] -- Check for working C compiler: /usr/bin/cc
+[0.708s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.711s] -- Detecting C compiler ABI info
+[1.120s] -- Detecting C compiler ABI info - done
+[1.155s] -- Detecting C compile features
+[1.155s] -- Detecting C compile features - done
+[1.161s] -- Check for working CXX compiler: /usr/bin/c++
+[1.332s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.334s] -- Detecting CXX compiler ABI info
+[1.479s] -- Detecting CXX compiler ABI info - done
+[1.504s] -- Detecting CXX compile features
+[1.505s] -- Detecting CXX compile features - done
+[1.509s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.540s] -- Found PythonInterp: /home/penship/ardupilot/ardupilot_env/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.540s] -- Using PYTHON_EXECUTABLE: /home/penship/ardupilot/ardupilot_env/bin/python3
+[1.740s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.771s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.834s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.996s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.054s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.368s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.370s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.371s] -- Looking for pthread.h
+[2.461s] -- Looking for pthread.h - found
+[2.462s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.548s] -- Looking for pthread_create in pthreads
+[2.620s] -- Looking for pthread_create in pthreads - not found
+[2.620s] -- Looking for pthread_create in pthread
+[2.707s] -- Looking for pthread_create in pthread - found
+[2.709s] -- Found Threads: TRUE  
+[2.866s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.982s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.111s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.112s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.113s] -- Configured cppcheck include dirs: /home/penship/rover/src/joy/include
+[3.113s] -- Configured cppcheck exclude dirs and/or files: 
+[3.114s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.114s] -- Configured cpplint exclude dirs and/or files: 
+[3.115s] -- Added test 'lint_cmake' to check CMake code style
+[3.116s] -- Added test 'uncrustify' to check C / C++ code style
+[3.116s] -- Configured uncrustify additional arguments: 
+[3.117s] -- Added test 'xmllint' to check XML markup files
+[3.122s] -- Configuring done
+[3.133s] -- Generating done
+[3.137s] -- Build files have been written to: /home/penship/rover/build/joy

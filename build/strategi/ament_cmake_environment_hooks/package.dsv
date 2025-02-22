@@ -1,0 +1,4 @@
+source;share/strategi/local_setup.bash
+source;share/strategi/local_setup.dsv
+source;share/strategi/local_setup.sh
+source;share/strategi/local_setup.zsh

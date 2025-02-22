@@ -1,0 +1,15 @@
+/home/penship/rover/install/strategi/share/ament_index/resource_index/package_run_dependencies/strategi
+/home/penship/rover/install/strategi/share/ament_index/resource_index/parent_prefix_path/strategi
+/home/penship/rover/install/strategi/share/strategi/environment/ament_prefix_path.sh
+/home/penship/rover/install/strategi/share/strategi/environment/ament_prefix_path.dsv
+/home/penship/rover/install/strategi/share/strategi/environment/path.sh
+/home/penship/rover/install/strategi/share/strategi/environment/path.dsv
+/home/penship/rover/install/strategi/share/strategi/local_setup.bash
+/home/penship/rover/install/strategi/share/strategi/local_setup.sh
+/home/penship/rover/install/strategi/share/strategi/local_setup.zsh
+/home/penship/rover/install/strategi/share/strategi/local_setup.dsv
+/home/penship/rover/install/strategi/share/strategi/package.dsv
+/home/penship/rover/install/strategi/share/ament_index/resource_index/packages/strategi
+/home/penship/rover/install/strategi/share/strategi/cmake/strategiConfig.cmake
+/home/penship/rover/install/strategi/share/strategi/cmake/strategiConfig-version.cmake
+/home/penship/rover/install/strategi/share/strategi/package.xml

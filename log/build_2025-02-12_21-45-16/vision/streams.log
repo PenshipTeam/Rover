@@ -1,0 +1,54 @@
+[0.055s] Invoking command in '/home/penship/rover/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/penship/rover/install/vision:/home/penship/rover/install/strategi:/home/penship/rover/install/motor:/home/penship/rover/install/main:/home/penship/rover/install/launcher:/home/penship/rover/install/joy:/home/penship/rover/src/install/vision:/home/penship/rover/src/install/motor:/home/penship/rover/src/install/main:/home/penship/rover/src/install/joy:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/vision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/vision
+[0.221s] -- The C compiler identification is GNU 9.4.0
+[0.386s] -- The CXX compiler identification is GNU 9.4.0
+[0.403s] -- Check for working C compiler: /usr/bin/cc
+[0.607s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.613s] -- Detecting C compiler ABI info
+[0.908s] -- Detecting C compiler ABI info - done
+[0.960s] -- Detecting C compile features
+[0.961s] -- Detecting C compile features - done
+[0.967s] -- Check for working CXX compiler: /usr/bin/c++
+[1.196s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.199s] -- Detecting CXX compiler ABI info
+[1.377s] -- Detecting CXX compiler ABI info - done
+[1.398s] -- Detecting CXX compile features
+[1.400s] -- Detecting CXX compile features - done
+[1.405s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.429s] -- Found PythonInterp: /home/penship/ardupilot/ardupilot_env/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.429s] -- Using PYTHON_EXECUTABLE: /home/penship/ardupilot/ardupilot_env/bin/python3
+[1.585s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.656s] -- Found OpenCV: /usr/local (found version "4.11.0") 
+[1.738s] -- Found Torch: /usr/lib/libtorch.so  
+[1.740s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.797s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.806s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.972s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.052s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.323s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.326s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.327s] -- Looking for pthread.h
+[2.415s] -- Looking for pthread.h - found
+[2.415s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.505s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.505s] -- Looking for pthread_create in pthreads
+[2.577s] -- Looking for pthread_create in pthreads - not found
+[2.577s] -- Looking for pthread_create in pthread
+[2.663s] -- Looking for pthread_create in pthread - found
+[2.664s] -- Found Threads: TRUE  
+[2.823s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[2.959s] CMake Error at CMakeLists.txt:26 (add_executable):
+[2.960s]   The target name "/home/penship/rover/src/vision/src/deteksi.cpp" is
+[2.960s]   reserved or not valid for certain CMake features, such as generator
+[2.960s]   expressions, and may result in undefined behavior.
+[2.960s] 
+[2.960s] 
+[2.960s] CMake Error at CMakeLists.txt:28 (target_link_libraries):
+[2.960s]   Cannot specify link libraries for target "object_detector" which is not
+[2.960s]   built by this project.
+[2.960s] 
+[2.961s] 
+[2.961s] -- Configuring incomplete, errors occurred!
+[2.962s] See also "/home/penship/rover/build/vision/CMakeFiles/CMakeOutput.log".
+[2.962s] See also "/home/penship/rover/build/vision/CMakeFiles/CMakeError.log".
+[2.971s] Invoked command in '/home/penship/rover/build/vision' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/penship/rover/install/vision:/home/penship/rover/install/strategi:/home/penship/rover/install/motor:/home/penship/rover/install/main:/home/penship/rover/install/launcher:/home/penship/rover/install/joy:/home/penship/rover/src/install/vision:/home/penship/rover/src/install/motor:/home/penship/rover/src/install/main:/home/penship/rover/src/install/joy:/opt/ros/foxy /usr/bin/cmake /home/penship/rover/src/vision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/penship/rover/install/vision
